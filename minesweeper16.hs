@@ -154,6 +154,6 @@ getresponse line =
 
 -- Play minesweeper
 playMS = do
-  play minesweeper Start
+  play minesweeper (minesweeper Start)
 
 -- To play minesweeper, just call playMS in the terminal
